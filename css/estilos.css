@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+
 @font-face{
     font-family:'flexslider-icon';
     src: url('../fonts/flexslider-icon.eot');
@@ -94,8 +96,9 @@
       margin: 0 auto;
       display: flex;
       align-items: center;
-      justify-content: space-around;
+      justify-content: center;
       padding: 5px;
+      gap: 40px;
   }
   
   .imagenInicio{    
@@ -1631,4 +1634,25 @@
   .div4 li a{
       color: #000;
   }
+
+.title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
   
+.title h1, .title h2 {
+    color: #771e24;
+    font-family: "Forum", serif;
+    font-style: normal;
+}
+
+.title h1 {
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.title h2 {
+    font-weight: 600;
+    font-size: 20px;
+}
